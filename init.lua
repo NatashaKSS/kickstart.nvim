@@ -124,6 +124,13 @@ vim.opt.undofile = true
 -- Case-insensitive searching UNLESS \C or one or more capital letters in the search term
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
+vim.opt.smartindent = true
+vim.opt.expandtab = true
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 2
+
+-- Add EOF newline at end of file
+vim.opt.eol = true
 
 -- Keep signcolumn on by default
 vim.opt.signcolumn = 'yes'
